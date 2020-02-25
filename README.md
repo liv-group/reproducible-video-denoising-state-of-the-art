@@ -38,6 +38,13 @@ Please feel free to contribute to this repo.
    * Non-Local Video Denoising by CNN (Arxiv 2018), Davy et al.
  * FastDVDnet [[Web]](https://github.com/hsijiaxidian/FOCNet) [[Code]](https://github.com/m-tassano/fastdvdnet) [[PDF]](https://arxiv.org/pdf/1907.01361.pdf)
    * FastDVDnet: Towards Real-Time Video Denoising Without Explicit Motion Estimation (Arxiv 2019), Tassano et al.
+ * LDK [[Web]]() [[Code]](https://github.com/z-bingo/Deformable-Kernels-For-Video-Denoising) [[PDF]](https://arxiv.org/abs/1904.06903)
+   * Learning Deformable Kernels for Image and Video Denoising (Arxiv 2019), Xu et al.   
+ * EDVR [[Web]](https://xinntao.github.io/projects/EDVR) [[Code]](https://github.com/xinntao/EDVR) [[PDF]](https://arxiv.org/abs/1905.02716)
+   * Video Restoration with Enhanced Deformable Convolutional Networks (CVPRW 2019), Wang et al.   
+ * TOF [[Web]](http://toflow.csail.mit.edu/) [[Code]](https://github.com/anchen1011/toflow) [[PDF]](http://toflow.csail.mit.edu/toflow_ijcv.pdf)
+   * Video Enhancement with Task-Oriented Flow (IJCV 2019), Xue et al.   
+
 
 #### Model-blind Learning
 
