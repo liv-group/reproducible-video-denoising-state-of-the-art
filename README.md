@@ -18,8 +18,6 @@ Please feel free to contribute to this repo.
 
 #### Non-Local Methods
 
-https://github.com/csutour/RNLF
-
  * VBM3D [[Web]](http://www.cs.tut.fi/~foi/GCF-BM3D/) [[Matlab]](http://www.cs.tut.fi/~foi/GCF-BM3D/bm3d_matlab_package_3.0.5.zip) [[Python]](http://www.cs.tut.fi/~foi/GCF-BM3D/bm3d_python_package_3.0.6.tar.gz) [[PDF]](http://www.cs.tut.fi/~foi/GCF-BM3D/VBM3D_EUSIPCO_2007.pdf)
    * Video denoising by sparse 3D transform-domain collaborative filtering (EUSIPCO 2007), Dabov et al.
  * VBM4D [[Web]](http://www.cs.tut.fi/~foi/GCF-BM3D/) [[Code]](http://www.cs.tut.fi/~foi/GCF-BM3D/VBM4D_v1.zip) [[PDF]](http://www.cs.tut.fi/~foi/papers/VBM4D-TIP-2cols.pdf)
