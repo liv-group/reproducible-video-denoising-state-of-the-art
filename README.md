@@ -5,13 +5,15 @@ Criteria: works must have codes available, and the reproducible results which de
 
 This format of the collection is similar to [reproducible-image-denoising](https://github.com/wenbihan/reproducible-image-denoising-state-of-the-art)
 
-Note: The first part of this repo includes Gaussian noise removal, and later will include more works for handling other noise distribution or real noise.
-Note: We are working on addding more methods to the list. Please feel free to contribute to this repo.
+Please feel free to contribute to this repo.
 
-## Video Denoising Algorithms (Gaussian)
+## Video Denoising Algorithms
 
-#### Local Filtering
+#### Local Methods
 
+
+ * VIDOSAT [[Web]](https://github.com/wenbihan/vidosat_icip2015) [[Code]](https://github.com/wenbihan/vidosat_icip2015) [[PDF]](https://arxiv.org/pdf/1710.00947.pdf)
+   * VIDOSAT - High-dimensional Sparsifying Transform Learning for Online Video Restoration (TIP 2019), Wen et al.
 
 #### Non-Local Methods
 
@@ -19,7 +21,7 @@ Note: We are working on addding more methods to the list. Please feel free to co
    * Video denoising by sparse 3D transform-domain collaborative filtering (EUSIPCO 2007), Dabov et al.
  * VBM4D [[Web]](http://www.cs.tut.fi/~foi/GCF-BM3D/) [[Code]](http://www.cs.tut.fi/~foi/GCF-BM3D/VBM4D_v1.zip) [[PDF]](http://www.cs.tut.fi/~foi/papers/VBM4D-TIP-2cols.pdf)
    * Video Denoising, Deblocking and Enhancement Through Separable 4-D Nonlocal Spatiotemporal Transforms (TIP 2012), Maggioni et al.
- * SALT [[Web]](http://transformlearning.csl.illinois.edu/) [[Code]](hhttps://github.com/wenbihan/salt_iccv2017) [[PDF]](http://transformlearning.csl.illinois.edu/assets/Bihan/ConferencePapers/BihanICCV2017salt.pdf)
+ * SALT [[Web]](http://transformlearning.csl.illinois.edu/) [[Code]](https://github.com/wenbihan/salt_iccv2017) [[PDF]](http://transformlearning.csl.illinois.edu/assets/Bihan/ConferencePapers/BihanICCV2017salt.pdf)
    * Joint Adaptive Sparsity and Low-Rankness on the Fly: An Online Tensor Reconstruction Scheme for Video Denoising (ICCV 2017), Wen et al.
    
 #### Bayesian Approach
@@ -29,5 +31,14 @@ Note: We are working on addding more methods to the list. Please feel free to co
 
 #### Deep Learning
 
- * FastDVDnet [[Web]](https://github.com/hsijiaxidian/FOCNet) [[Code]](https://github.com/m-tassano/fastdvdnet) [[PDF]](https://arxiv.org/pdf/1907.01361v1.pdf)
-   * FOCNet: A Fractional Optimal Control Network for Image Denoising (CVPR 2019), Jia et al.
+ * VNLNet [[Web]](https://github.com/axeldavy/vnlnet) [[Code]](https://github.com/axeldavy/vnlnet) [[PDF]](https://arxiv.org/pdf/1811.12758.pdf)
+   * Non-Local Video Denoising by CNN (Arxiv 2018), Davy et al.
+ * FastDVDnet [[Web]](https://github.com/hsijiaxidian/FOCNet) [[Code]](https://github.com/m-tassano/fastdvdnet) [[PDF]](https://arxiv.org/pdf/1907.01361.pdf)
+   * FastDVDnet: Towards Real-Time Video Denoising Without Explicit Motion Estimation (Arxiv 2019), Tassano et al.
+
+#### Model-blind Learning
+
+ * BlindDenoising [[Web]](https://github.com/tehret/blind-denoising) [[Code]](https://github.com/tehret/blind-denoising) [[PDF]](http://openaccess.thecvf.com/content_CVPR_2019/papers/Ehret_Model-Blind_Video_Denoising_via_Frame-To-Frame_Training_CVPR_2019_paper.pdf)
+   * Model-Blind Video Denoising via Frame-To-Frame Training (CVPR 2019), Tassano et al. 
+ * ViDeNN [[Web]](https://github.com/clausmichele/ViDeNN) [[Code]](https://github.com/clausmichele/ViDeNN) [[PDF]](http://openaccess.thecvf.com/content_CVPRW_2019/papers/NTIRE/Claus_ViDeNN_Deep_Blind_Video_Denoising_CVPRW_2019_paper.pdf)
+   * ViDeNN: Deep Blind Video Denoising (CVPRW 2019), Claus and Gemert 
